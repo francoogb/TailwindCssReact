@@ -1,0 +1,34 @@
+.usercard {
+  margin-top: 40px;
+  & img {
+    --size: 128px;
+
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+  }
+  & h1 {
+    color: #fff;
+    font-size: 2.25rem;
+    margin: 0;
+    line-height: 75%;
+    margin-top: 20px;
+  }
+
+  & .links {
+    display: inline flex;
+    gap: 0.25rem;
+
+    & a {
+      background: deeppink;
+      padding: 0 0.5rem;
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        background: gold;
+        color: #222;
+      }
+    }
+  }
+}

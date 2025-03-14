@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Define la variante dark para usar la clase dark */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Resto de tus estilos personalizados */
